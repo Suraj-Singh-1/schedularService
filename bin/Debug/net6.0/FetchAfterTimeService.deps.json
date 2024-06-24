@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FetchAfterTimeService/1.0.0": {
+        "dependencies": {
+          "JsonConverter.Newtonsoft.Json": "0.5.0"
+        },
+        "runtime": {
+          "FetchAfterTimeService.dll": {}
+        }
+      },
+      "JsonConverter.Abstractions/0.5.0": {
+        "runtime": {
+          "lib/netstandard2.1/JsonConverter.Abstractions.dll": {
+            "assemblyVersion": "0.5.0.0",
+            "fileVersion": "0.5.0.0"
+          }
+        }
+      },
+      "JsonConverter.Newtonsoft.Json/0.5.0": {
+        "dependencies": {
+          "JsonConverter.Abstractions": "0.5.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Stef.Validation": "0.1.1"
+        },
+        "runtime": {
+          "lib/net6.0/JsonConverter.Newtonsoft.Json.dll": {
+            "assemblyVersion": "0.5.0.0",
+            "fileVersion": "0.5.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Stef.Validation/0.1.1": {
+        "runtime": {
+          "lib/net6.0/Stef.Validation.dll": {
+            "assemblyVersion": "0.1.1.0",
+            "fileVersion": "0.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FetchAfterTimeService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JsonConverter.Abstractions/0.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+xjuP5eXF/MNBGdWElFOTpytDXfAtds3hLaqWhZx0iYizEJc+mSzuJRg1uAgD4ZbOUaFKcFq9sYi3tJFPRzE4g==",
+      "path": "jsonconverter.abstractions/0.5.0",
+      "hashPath": "jsonconverter.abstractions.0.5.0.nupkg.sha512"
+    },
+    "JsonConverter.Newtonsoft.Json/0.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AwE5k6/LLgdQldiXBZ4MsZafelqLF8UWE0xI2gtZClAbuFS1ZAuxncc9x/8pafHuLzmpEzRxQfkS0Nmltwu3Dw==",
+      "path": "jsonconverter.newtonsoft.json/0.5.0",
+      "hashPath": "jsonconverter.newtonsoft.json.0.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Stef.Validation/0.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qecz9CHwt32dAU7MYWINU6QCRZ1B0/anPxzyEJGos9osyMhjrv6C+OZIl3Wl3kLtllu9cGaptTD6nOhW1rMlZw==",
+      "path": "stef.validation/0.1.1",
+      "hashPath": "stef.validation.0.1.1.nupkg.sha512"
+    }
+  }
+}

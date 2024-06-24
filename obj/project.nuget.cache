@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "wjOZbkqwHYRMWv+JMTMGo57I/LDf18Q7JWfQLqX6ta/L6yM/VFH5h05BVb6VUP9XboDsti2n2eVKCSAU0fU87A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\suraj.singh\\OneDrive - NEC Software Solutions\\Documents\\Practice\\FetchAfterTimeService\\FetchAfterTimeService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\suraj.singh\\.nuget\\packages\\jsonconverter.abstractions\\0.5.0\\jsonconverter.abstractions.0.5.0.nupkg.sha512",
+    "C:\\Users\\suraj.singh\\.nuget\\packages\\jsonconverter.newtonsoft.json\\0.5.0\\jsonconverter.newtonsoft.json.0.5.0.nupkg.sha512",
+    "C:\\Users\\suraj.singh\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\suraj.singh\\.nuget\\packages\\stef.validation\\0.1.1\\stef.validation.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
