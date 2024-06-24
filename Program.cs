@@ -11,15 +11,17 @@ class Program
 {
     private static Timer _timer;
     private static HttpClient _httpClient = new HttpClient();
-    private static string _apiKey = "3d88548e05fea099ed638f676acf00b2"; // Replace with your OpenWeatherMap API key
+    //private static string _apiKey = "3d88548e05fea099ed638f676acf00b2"; // Replace with your OpenWeatherMap API key
     private static string _url = $"https://official-joke-api.appspot.com/random_joke";
-    private static string _outputFolder = "C:\\Users\\suraj.singh\\OneDrive - NEC Software Solutions\\Documents\\Practice\\FetchAfterTimeService\\resultData"; // Replace with your desired output folder
+    // Get the current directory of 'project' folder
+    static string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+    static string projectRootDirectory = Directory.GetParent(baseDirectory).Parent.Parent.Parent.FullName;
 
+    private static string _outputFolder = projectRootDirectory+"\\resultData"; // Replace with your desired output folder
     static async Task Main(string[] args)
     {
         // Ensure output directory exists
-        Directory.CreateDirectory(_outputFolder);
-
+        Directory.CreateDirectory(projectRootDirectory);
         // Set up a timer to trigger every minute (60000 milliseconds)
         _timer = new Timer(6000);
         _timer.Elapsed += OnTimedEvent;
